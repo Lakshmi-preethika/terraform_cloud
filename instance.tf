@@ -10,7 +10,7 @@ variable "project" {
 type = string
 }
 resource "google_compute_instance" "myvm" {
-name = "myfirstvm"
+name = "myfirstvmm"
 machine_type = var.machine
 zone = "us-central1-a"
 network_interface {
@@ -23,7 +23,7 @@ image = "debian-cloud/debian-10"
 }
 }
 resource "google_compute_instance" "myvm1" {
-name = "myfirstvm1"
+name = "myfirstvmm1"
 machine_type = var.machine
 zone = "us-central1-a"
 network_interface {
